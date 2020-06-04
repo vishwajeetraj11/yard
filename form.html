@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+        <nav class="nav">
+            <div class="nav-links-container">
+
+                <h2 class="nav-heading">Bubble</h2>
+                <p class="nav-link-item"><a href="#" class="nav-link">Dashboard</a></p>
+                <p class="nav-link-item">
+                    <a href="#" class="nav-link"><span class="icon">3</span>Job Board</a>
+                </p>
+                <p class="nav-link-item">
+                    <a href="#" class="nav-link" id="active"><span class="icon">3</span>Orders</a>
+                </p>
+                <p class="nav-link-item"><a href="#" class="nav-link">Account</a></p>
+            </div>
+        </nav>
+    
+
+    <div class="row">
+        <div class="col-1-of-2">
+            <div class="main-text">
+                <h1 class="main-text-heading">Bussiness Details</h1>
+                <h4 class="main-text-sub-heading">Tell us about you or your business</h4>
+            </div>
+        </div>
+
+        <div class="col-1-of-2">
+            <div class="form-container">
+                <div class="form-container-1">
+                    <form action="#" class="form">
+                        <div class="form-text">
+                            <h1 class="form-text-heading">Bussiness Details</h1>
+                            <h4 class="form-text-sub-heading">Tell us about you or your business</h4>
+                        </div>
+
+
+                        <label for="name" class="form-label-block">
+                            Name
+                        </label>
+                        <input type="text" id="name" class="input-box" />
+
+                        <label for="street" class="form-label-block">
+                            Street
+                        </label>
+                        <input type="text" id="street" class="input-box" />
+                        
+                        <div class="flex-container">
+                            <div class="flex-container-sub">
+                                <label for="city" class="form-label-block">
+                                    City
+                                </label>
+                                        <select name="" class="input-box" id="city">
+                                            <option>Berlin</option>
+                                            <option>Nairobi</option>
+                                            <option>Helsinki</option>
+                                        </select>
+                            </div>
+                            <div class="flex-container-sub">
+                                <label for="zipcode" class="form-label-block">
+                                    Zip Code
+                                </label>
+                                
+                                <input type="text" id="zipcode" class="input-box">
+                            </div>
+    
+                        </div>
+                       
+                        <div class="form-text mar-top mar-bot-small">
+                            <h1 class="form-text-heading">Primary Services</h1>
+                            <h4 class="form-text-sub-heading">You'll be able to enable multiple services after registration</h4>
+                            <!-- <h4 class="form-text-sub-heading">Who should we reach out if anything goes wrong?</h4> -->
+                        </div>
+                        <hr>
+                        
+                    <select name="" class="input-box mar-top-small mar-bot-md">
+                        <option>Dry Cleaning</option>
+                        <option>Cloth Washing</option>
+                        <option>Cloth Ironing</option>
+                    </select>
+
+
+                    <div class="form-text mar-top mar-bot-small">
+                        <h1 class="form-text-heading">Primary Contact</h1>
+                        <h4 class="form-text-sub-heading">Who should we reach out if anything goes wrong?</h4>
+                    </div>
+
+                    <hr>
+
+                    <div class="flex-container">
+                        <div class="flex-container-sub">
+                            <label for="firstname" class="form-label-block">
+                                First Name
+                            </label>
+                            
+                            <input type="text" id="firstname" class="input-box">
+                        </div>
+                        <div class="flex-container-sub">
+                            <label for="lastname" class="form-label-block">
+                                Last Name
+                            </label>
+                            
+                            <input type="text" id="lastname" class="input-box">
+                        </div>
+                    </div>
+
+                    
+                    <label for="phno" class="form-label-block">
+                        Phone Number
+                    </label>
+                    <input type="text" id="phno" class="input-box" />
+
+
+                    <div class="form-text mar-top-lg mar-bot-small">
+                        <h1 class="form-text-heading">Account</h1>
+                        <h4 class="form-text-sub-heading">You will use these credentials to log in.</h4>
+                        <!-- <h4 class="form-text-sub-heading">Who should we reach out if anything goes wrong?</h4> -->
+                    </div>
+                    <hr>
+                    <div class="flex-container">
+                        <div class="flex-container-sub">
+                            <label for="email" class="form-label-block">
+                                Email
+                            </label>
+                            
+                            <input type="text" id="email" class="input-box">
+                        </div>
+                        <div class="flex-container-sub">
+                            <label for="password" class="form-label-block">
+                                Create a Password
+                            </label>
+                            
+                            <input type="text" id="password" class="input-box">
+                        </div>
+                    </div>
+                        <div class="mar-top"></div>
+                    <hr>
+                    
+                    <input type="submit"  class="btn">
+                </form>
+                </div>
+               
+            </div>
+        </div>
+     
+    </div>
+
+</body>
+</html>
